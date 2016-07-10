@@ -42,7 +42,7 @@
 
 		"max-depth": ["warn", 4],
 		"max-len": ["warn", 150],
-		"max-statements": ["warn", 20],
+		"max-statements": ["warn", 20, { "ignoreTopLevelFunctions": true }],
 		"padded-blocks": ["warn", { "blocks": "never", "switches": "never", "classes": "always" }],
 		"arrow-parens": ["error", "always"],
 		"camelcase": "error",
