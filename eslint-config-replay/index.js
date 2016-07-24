@@ -1,10 +1,12 @@
-{
+module.exports = {
 	"extends": "google",
+
 	"installedESLint": true,
 
 	"globals": {
 		"jQuery": true,
-		"$": true
+		"$": true,
+		"sails": true
 	},
 
 	"env": {
@@ -84,4 +86,4 @@
 			}
 		}]
 	}
-}
+};
