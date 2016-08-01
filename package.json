@@ -15,7 +15,7 @@
 	"homepage": "https://github.com/motyros/replay-cleanCode#readme",
 	"dependencies": {},
 	"devDependencies": {
-		"eslint-config-replay": "*",
+		"replay-eslint-config": "*",
 		"pre-commit": "^1.1.3"
 	},
 	"scripts": {
@@ -26,5 +26,8 @@
 	"pre-commit": {
 		"run": "lint",
 		"colors": true
+	},
+	"eslintConfig": {
+		"extends": "./node_modules/replay-eslint-config/index.js"
 	}
 }
